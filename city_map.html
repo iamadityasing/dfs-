@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_251f3fc8794cab52479f465fb58f6d18 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_251f3fc8794cab52479f465fb58f6d18" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_251f3fc8794cab52479f465fb58f6d18 = L.map(
+                "map_251f3fc8794cab52479f465fb58f6d18",
+                {
+                    center: [40.75701215, -73.98597092538824],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c2b638231e169814d9bc3be9bd87304f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c2b638231e169814d9bc3be9bd87304f.addTo(map_251f3fc8794cab52479f465fb58f6d18);
+        
+    
+            var marker_0b961d5b9deb932a7695b8ac433d2ea5 = L.marker(
+                [40.75701215, -73.98597092538824],
+                {}
+            ).addTo(map_251f3fc8794cab52479f465fb58f6d18);
+        
+    
+        var popup_881fd65c0279986d8401097cd85b5b19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34db06c23c69f3f84e18c62cfa4ded0b = $(`<div id="html_34db06c23c69f3f84e18c62cfa4ded0b" style="width: 100.0%; height: 100.0%;">Times Square, New York, NY</div>`)[0];
+                popup_881fd65c0279986d8401097cd85b5b19.setContent(html_34db06c23c69f3f84e18c62cfa4ded0b);
+            
+        
+
+        marker_0b961d5b9deb932a7695b8ac433d2ea5.bindPopup(popup_881fd65c0279986d8401097cd85b5b19)
+        ;
+
+        
+    
+    
+            var marker_774e75179643fe998d39ebbc1a891818 = L.marker(
+                [40.7827725, -73.9653627406542],
+                {}
+            ).addTo(map_251f3fc8794cab52479f465fb58f6d18);
+        
+    
+        var popup_81cc5639194fb360a4180be2ca3b189c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5abc908afcaeb9dc4431eaf78a435cb = $(`<div id="html_f5abc908afcaeb9dc4431eaf78a435cb" style="width: 100.0%; height: 100.0%;">Central Park, New York, NY</div>`)[0];
+                popup_81cc5639194fb360a4180be2ca3b189c.setContent(html_f5abc908afcaeb9dc4431eaf78a435cb);
+            
+        
+
+        marker_774e75179643fe998d39ebbc1a891818.bindPopup(popup_81cc5639194fb360a4180be2ca3b189c)
+        ;
+
+        
+    
+    
+            var marker_06a3abd474d64b0c8419853c11d6e993 = L.marker(
+                [40.74844205, -73.98565890160751],
+                {}
+            ).addTo(map_251f3fc8794cab52479f465fb58f6d18);
+        
+    
+        var popup_556226f664c815eefec77cb87ce75d86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5723209d253df928d3cfaf4f031b110 = $(`<div id="html_e5723209d253df928d3cfaf4f031b110" style="width: 100.0%; height: 100.0%;">Empire State Building, New York, NY</div>`)[0];
+                popup_556226f664c815eefec77cb87ce75d86.setContent(html_e5723209d253df928d3cfaf4f031b110);
+            
+        
+
+        marker_06a3abd474d64b0c8419853c11d6e993.bindPopup(popup_556226f664c815eefec77cb87ce75d86)
+        ;
+
+        
+    
+    
+            var poly_line_f5904a15b08cbf6961a6f1db47084c6b = L.polyline(
+                [[40.75701215, -73.98597092538824], [40.7827725, -73.9653627406542]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_251f3fc8794cab52479f465fb58f6d18);
+        
+    
+            var poly_line_8d149651440e6c9067c95634b990f45a = L.polyline(
+                [[40.75701215, -73.98597092538824], [40.74844205, -73.98565890160751]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_251f3fc8794cab52479f465fb58f6d18);
+        
+    
+            var poly_line_155393ac70a8c1e760df66779d5c4e40 = L.polyline(
+                [[40.7827725, -73.9653627406542], [40.74844205, -73.98565890160751]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_251f3fc8794cab52479f465fb58f6d18);
+        
+    
+            var poly_line_1b41f5b47ff323a6a3982e7c53216416 = L.polyline(
+                [[40.75701215, -73.98597092538824], [40.74844205, -73.98565890160751]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_251f3fc8794cab52479f465fb58f6d18);
+        
+</script>
+</html>
